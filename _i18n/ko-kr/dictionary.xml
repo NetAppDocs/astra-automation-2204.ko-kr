@@ -321,10 +321,6 @@
   <block id="4c5c5ddf14933aa945693ada812ede98" category="cell">스토리지 백엔드 리소스는 Astra 관리 클러스터 및 애플리케이션에서 사용할 수 있는 스토리지 서비스 공급자를 나타냅니다.</block>
   <block id="dd8c5eff0fd4dd0b3760e41db59bfb3a" category="cell">스토리지 클래스</block>
   <block id="8fb50be09f59469582a9c05b97f8517c" category="cell">스토리지 클래스 리소스는 특정 관리 대상 클러스터에서 발견되어 사용할 수 있는 다양한 클래스 또는 스토리지 유형을 나타냅니다.</block>
-  <block id="ec0f2a3052ae80ccfcad8020e8680088" category="cell">저장 장치</block>
-  <block id="5482e18b728d9af600694261c0650975" category="cell">스토리지 디바이스 리소스는 ADS(Astra Data Store) 유형 스토리지 백엔드에 대한 특정 스토리지 노드와 연결된 디스크에 대한 액세스를 제공합니다. ADS 스토리지 백엔드는 Kubernetes 클러스터로 구축됩니다.</block>
-  <block id="fe171fe0421ac266ac1285e64b1311d2" category="cell">스토리지 노드</block>
-  <block id="2c0709150edcf4371b39572b109c04c3" category="cell">스토리지 노드 리소스는 ADS 클러스터의 일부인 노드를 나타냅니다.</block>
   <block id="bd7a9717d29c5ddcab1bc175eda1e298" category="cell">볼륨</block>
   <block id="d0600f0c4c9b294b53d39320b3945b84" category="cell">볼륨 리소스는 관리 애플리케이션과 관련된 Kubernetes 스토리지 볼륨을 나타냅니다.</block>
   <block id="a4defd5be5a64ad7db7bf34bbb2d7bd5" category="section-title">현재 릴리즈와 함께 새 엔드포인트를 사용할 수 있습니다</block>
@@ -800,17 +796,11 @@
   <block id="78ceba6718263592394adb03dc11471c" category="paragraph">Astra Control REST API와 관련된 현재 릴리즈에 대해 알려진 모든 문제를 검토해야 합니다. 알려진 문제는 제품을 성공적으로 사용하지 못하게 만들 수 있는 문제를 식별합니다.</block>
   <block id="186b5474f8ff952677455ef8c6479620" category="admonition">Astra Control REST API 22.04 릴리스에는 새로 알려진 문제가 없습니다. 아래 설명된 문제는 이전 릴리즈에서 발견되었으며 현재 릴리스에서도 계속 적용됩니다.</block>
   <block id="f977fda19bbfe49b9346f60f532f0704" category="section-title">백엔드 스토리지 노드의 모든 스토리지 디바이스가 검색되지 않습니다</block>
-  <block id="13595bcf3f8022567de41bcd09ef92b2" category="paragraph">스토리지 노드에 정의된 스토리지 디바이스를 검색하기 위해 REST API 호출을 실행하면 Astra Data Store 디바이스만 검색됩니다. 일부 장치는 반환되지 않습니다.</block>
-  <block id="fd341dfea170932946910997510c48e8" category="section-title">Astra Data Store 스토리지 백엔드가 알 수 없는 상태입니다</block>
-  <block id="e1c83179f57e62cb00fbb2646ef58e6e" category="paragraph">Astra Data Store 스토리지 백엔드는 API 호출을 통해 스토리지 백엔드를 검색한 후 '알 수 없음' 상태에 있습니다. 이 상태에서는 스토리지 백엔드를 계속 사용할 수 있으며 와 통신할 수 있습니다. 그러나 스토리지 백엔드 내의 구성 요소는 상태가 좋지 않을 수 있으므로 스토리지 백엔드가 "사용 가능"으로 표시되도록 정상 상태로 되돌려주어야 합니다.</block>
   <block id="e81b0f8fae224ca0c3d3258b75a989dd" category="section-title">Astra Control API 라이센스</block>
   <block id="31862872c35b9509755103831963a7ff" category="paragraph">일반 REST 및 클라우드 개념뿐 아니라 NetApp 클라우드 서비스 및 지원에 대한 자세한 정보를 얻고 도움을 받을 수 있는 추가 리소스가 있습니다.</block>
   <block id="3cce5f3eaf76e098ba8e28f7bbba3f92" category="section-title">아스트라</block>
   <block id="01d5e4ec3cb4b0c1971b9e8a5199a107" category="paragraph">고객 구내에 구축된 Astra Control Center 소프트웨어의 현재 릴리스에 대한 문서입니다.</block>
   <block id="9533b0dcff191d66f9ea3fe447bffddc" category="paragraph">퍼블릭 클라우드에서 사용 가능한 Astra Control Service 소프트웨어의 현재 릴리스에 대한 문서입니다.</block>
-  <block id="be1c3d3113c4023e29e8dd947523c711" category="inline-link">Astra Data Store 문서</block>
-  <block id="c1f6a45da7b5911a5f35093ae72bfc7a" category="list-text"><block ref="c1f6a45da7b5911a5f35093ae72bfc7a" category="inline-link-rx"></block></block>
-  <block id="f1078b605bb76543a5137c04c286382d" category="paragraph">고객 구내에 구축된 Astra Data Store 소프트웨어의 현재 릴리스에 대한 문서입니다.</block>
   <block id="14d9b10c6196045941347a9e85704b50" category="inline-link">Astra Trident 문서</block>
   <block id="b886ef3e400bd69f357f6981475b14e1" category="list-text"><block ref="b886ef3e400bd69f357f6981475b14e1" category="inline-link-rx"></block></block>
   <block id="5b9e0257ebcdde10e1d11e75a9a03336" category="paragraph">NetApp에서 관리하는 오픈 소스 스토리지 오케스트레이터인 Astra Trident 소프트웨어의 현재 릴리즈에 대한 문서입니다.</block>
@@ -871,4 +861,5 @@
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
   <block id="798161428a705ba47c31cc8ace9316e3" category="doc">Astra Control Automation 22.04 문서</block>
+  <block id="c175d41386d298206ec13ff17f141b1c" category="paragraph">스토리지 노드에 정의된 스토리지 디바이스를 검색하기 위해 REST API 호출을 실행하는 경우 일부 디바이스가 반환되지 않습니다.</block>
 </blocks>
