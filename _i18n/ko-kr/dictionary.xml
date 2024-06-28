@@ -825,7 +825,6 @@
   <block id="fa862ec81357f8907a8b75f4d969c590" category="inline-link">RFC 편집기</block>
   <block id="6763d4dfc2fa6c04b08ba1e1b7751f5f" category="list-text"><block ref="6763d4dfc2fa6c04b08ba1e1b7751f5f" category="inline-link-rx"></block></block>
   <block id="ba793efaa4293b35388d140ee9308a68" category="paragraph">고유 번호가 지정된 RFC 문서의 모음으로 유지 관리되는 웹 및 인터넷 표준에 대한 신뢰할 수 있는 소스입니다.</block>
-  <block id="c6c51849eeb1ac322baa3a99b7cd7e43" category="summary">Astra Automation의 요약입니다.</block>
   <block id="5050b96b055cfded21a1b69b78b627c2" category="sidebar">Astra Control Automation 22.04 문서</block>
   <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">이전 버전</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
@@ -915,4 +914,5 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="775e2faa120631457b3eb5f26a2f323a" category="sidebar">Astra Control은 Kubernetes 애플리케이션에 데이터 라이프사이클 관리를 제공하는 NetApp 소프트웨어 제품입니다. 환경에 따라 두 가지 구축 모델을 사용할 수 있습니다. Astra Control Center와 Astra Control Service는 주어진 릴리스에 대해 동일한 REST API를 공유합니다. API 및 기타 관련 자동화 기술을 사용하여 Astra Control 배포를 관리할 수 있습니다.</block>
 </blocks>
